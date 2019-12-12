@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/free/production/TFT-240x400.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>24576</length>
+      <used>1828</used>
+      <free>22748</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>2048</length>
+      <used>49</used>
+      <free>1999</free>
+    </memory>
+  </executable>
+</project>

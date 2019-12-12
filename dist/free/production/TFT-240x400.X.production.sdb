@@ -1,0 +1,297 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2455 ]
+[d frameptr 4065 ]
+"4 /opt/microchip/xc8/v2.10/pic/sources/c90/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.10/pic/sources/c90/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.10/pic/sources/c90/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.10/pic/sources/c90/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.10/pic/sources/c90/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.10/pic/sources/c90/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 /opt/microchip/xc8/v2.10/pic/sources/c90/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.10/pic/sources/c90/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.10/pic/sources/c90/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.10/pic/sources/c90/common/Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"16 /media/wiz/WYZ/devel/pic/TFT-240x400.X/init.c
+[v _init init `(v  1 e 1 0 ]
+"81
+[v _isr isr `IIH(v  1 e 1 0 ]
+"16 /media/wiz/WYZ/devel/pic/TFT-240x400.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"36
+[v _loop loop `(v  1 e 1 0 ]
+"12 /media/wiz/WYZ/devel/pic/TFT-240x400.X/TFT.c
+[v _TFT_WriteRegister TFT_WriteRegister `(v  1 e 1 0 ]
+"30
+[v _TFT_ReadRegister TFT_ReadRegister `(ui  1 e 2 0 ]
+"46
+[v _TFT_Reset TFT_Reset `(v  1 e 1 0 ]
+"56
+[v _TFT_SetAddrWindow TFT_SetAddrWindow `(v  1 e 1 0 ]
+"68
+[v _TFT_FullScreen TFT_FullScreen `(v  1 e 1 0 ]
+"72
+[v _TFT_Init TFT_Init `(v  1 e 1 0 ]
+"94
+[v _TFT_DrawPixel TFT_DrawPixel `(v  1 e 1 0 ]
+"106
+[v _TFT_Flood TFT_Flood `(v  1 e 1 0 ]
+"144
+[v _TFT_FillScreen TFT_FillScreen `(v  1 e 1 0 ]
+"150
+[v _TFT_ColorRGBTo16Bit TFT_ColorRGBTo16Bit `(ui  1 e 2 0 ]
+[s S130 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"467 /opt/microchip/xc8/v2.10/pic/include/pic18f2455.h
+[u S138 . 1 `S130 1 . 1 0 ]
+[v _UCONbits UCONbits `VES138  1 e 1 @3949 ]
+[s S149 . 1 `uc 1 PPB 1 0 :2:0 
+`uc 1 FSEN 1 0 :1:2 
+`uc 1 UTRDIS 1 0 :1:3 
+`uc 1 UPUEN 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 UOEMON 1 0 :1:6 
+`uc 1 UTEYE 1 0 :1:7 
+]
+"590
+[s S157 . 1 `uc 1 PPB0 1 0 :1:0 
+`uc 1 PPB1 1 0 :1:1 
+]
+[s S160 . 1 `uc 1 UPP0 1 0 :1:0 
+`uc 1 UPP1 1 0 :1:1 
+]
+[u S163 . 1 `S149 1 . 1 0 `S157 1 . 1 0 `S160 1 . 1 0 ]
+[v _UCFGbits UCFGbits `VES163  1 e 1 @3951 ]
+"2117
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"2256
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"2366
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S224 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2408
+[s S233 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S240 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S247 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S251 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S254 . 1 `S224 1 . 1 0 `S233 1 . 1 0 `S240 1 . 1 0 `S247 1 . 1 0 `S251 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES254  1 e 1 @3970 ]
+"2547
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"2647
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"2759
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"2837
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3035
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"3257
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S100 . 1 `uc 1 TUN 1 0 :5:0 
+`uc 1 . 1 0 :2:5 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"3430
+[s S104 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+]
+[u S110 . 1 `S100 1 . 1 0 `S104 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES110  1 e 1 @3995 ]
+[s S68 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"6828
+[s S74 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 FLTS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S82 . 1 `S68 1 . 1 0 `S74 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES82  1 e 1 @4051 ]
+"8530
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"8950
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"9058
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"9217
+[v _SSPIE SSPIE `VEb  1 e 0 @31979 ]
+"12 /media/wiz/WYZ/devel/pic/TFT-240x400.X/main.c
+[v _drX drX `ui  1 e 2 0 ]
+[v _drY drY `ui  1 e 2 0 ]
+"13
+[v _r r `uc  1 e 1 0 ]
+[v _g g `uc  1 e 1 0 ]
+[v _b b `uc  1 e 1 0 ]
+"14
+[v _xDir xDir `c  1 e 1 0 ]
+[v _yDir yDir `c  1 e 1 0 ]
+[v _rDir rDir `c  1 e 1 0 ]
+[v _gDir gDir `c  1 e 1 0 ]
+[v _bDir bDir `c  1 e 1 0 ]
+[v _cCol cCol `c  1 e 1 0 ]
+"72 /media/wiz/WYZ/devel/pic/TFT-240x400.X/TFT.h
+[v _TFT_Init_Sequence TFT_Init_Sequence `C[102]ui  1 e 204 0 ]
+"16 /media/wiz/WYZ/devel/pic/TFT-240x400.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"30
+} 0
+"36
+[v _loop loop `(v  1 e 1 0 ]
+{
+"63
+} 0
+"94 /media/wiz/WYZ/devel/pic/TFT-240x400.X/TFT.c
+[v _TFT_DrawPixel TFT_DrawPixel `(v  1 e 1 0 ]
+{
+[v TFT_DrawPixel@x x `ui  1 p 2 9 ]
+[v TFT_DrawPixel@y y `ui  1 p 2 11 ]
+[v TFT_DrawPixel@color color `ui  1 p 2 13 ]
+"98
+} 0
+"150
+[v _TFT_ColorRGBTo16Bit TFT_ColorRGBTo16Bit `(ui  1 e 2 0 ]
+{
+[v TFT_ColorRGBTo16Bit@r r `uc  1 a 1 wreg ]
+[v TFT_ColorRGBTo16Bit@r r `uc  1 a 1 wreg ]
+[v TFT_ColorRGBTo16Bit@g g `uc  1 p 1 0 ]
+[v TFT_ColorRGBTo16Bit@b b `uc  1 p 1 1 ]
+[v TFT_ColorRGBTo16Bit@r r `uc  1 a 1 8 ]
+"152
+} 0
+"16 /media/wiz/WYZ/devel/pic/TFT-240x400.X/init.c
+[v _init init `(v  1 e 1 0 ]
+{
+"76
+} 0
+"72 /media/wiz/WYZ/devel/pic/TFT-240x400.X/TFT.c
+[v _TFT_Init TFT_Init `(v  1 e 1 0 ]
+{
+"77
+[v TFT_Init@i i `ui  1 a 2 33 ]
+[v TFT_Init@cmd cmd `ui  1 a 2 31 ]
+"78
+[v TFT_Init@initSequenceSize initSequenceSize `ui  1 a 2 29 ]
+"77
+[v TFT_Init@data data `ui  1 a 2 27 ]
+"92
+} 0
+"46
+[v _TFT_Reset TFT_Reset `(v  1 e 1 0 ]
+{
+"54
+} 0
+"68
+[v _TFT_FullScreen TFT_FullScreen `(v  1 e 1 0 ]
+{
+"70
+} 0
+"56
+[v _TFT_SetAddrWindow TFT_SetAddrWindow `(v  1 e 1 0 ]
+{
+[v TFT_SetAddrWindow@x1 x1 `ui  1 p 2 8 ]
+[v TFT_SetAddrWindow@y1 y1 `ui  1 p 2 10 ]
+[v TFT_SetAddrWindow@x2 x2 `ui  1 p 2 12 ]
+[v TFT_SetAddrWindow@y2 y2 `ui  1 p 2 14 ]
+"66
+} 0
+"144
+[v _TFT_FillScreen TFT_FillScreen `(v  1 e 1 0 ]
+{
+[v TFT_FillScreen@color color `ui  1 p 2 23 ]
+"148
+} 0
+"106
+[v _TFT_Flood TFT_Flood `(v  1 e 1 0 ]
+{
+"107
+[v TFT_Flood@blocks blocks `ui  1 a 2 18 ]
+"110
+[v TFT_Flood@color_lo color_lo `uc  1 a 1 22 ]
+"109
+[v TFT_Flood@color_hi color_hi `uc  1 a 1 21 ]
+"108
+[v TFT_Flood@i i `uc  1 a 1 20 ]
+"106
+[v TFT_Flood@color color `ui  1 p 2 8 ]
+[v TFT_Flood@len len `ul  1 p 4 10 ]
+"142
+} 0
+"12
+[v _TFT_WriteRegister TFT_WriteRegister `(v  1 e 1 0 ]
+{
+"15
+[v TFT_WriteRegister@l_321 l `uc  1 a 1 7 ]
+[v TFT_WriteRegister@h_320 h `uc  1 a 1 6 ]
+"14
+[v TFT_WriteRegister@l l `uc  1 a 1 5 ]
+[v TFT_WriteRegister@h h `uc  1 a 1 4 ]
+"12
+[v TFT_WriteRegister@reg reg `ui  1 p 2 0 ]
+[v TFT_WriteRegister@data data `ui  1 p 2 2 ]
+"17
+} 0
+"81 /media/wiz/WYZ/devel/pic/TFT-240x400.X/init.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"83
+} 0
